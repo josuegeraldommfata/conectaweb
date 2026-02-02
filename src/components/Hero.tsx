@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 // *** IMPORTAÇÃO DA SUA FOTO DE PERFIL ***
 // Como a foto está diretamente em `src/` e este componente está em `src/components/`,
 // o caminho correto é `../1741032172529.jpg` (subir um nível para acessar `src/`).
-import minhaFotoPrincipal from '../1741032172529.jpg'; 
+import minhaFotoPrincipal from '../hero-bg.jpg';
 
 const Hero = () => {
   return (
@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <p className="text-portfolio-violet font-medium mb-4 animate-fade-in">Olá, Eu Sou ...</p>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4 text-portfolio-blue animate-slide-up">
-              Programador <span className="text-gradient">Full Stack  Sênior</span>&<span className="text-gradient">Mobile.</span> 
+              Programador <span className="text-gradient">Full Stack  Sênior</span>&<span className="text-gradient">Mobile.</span>
             </h1>
             <p className="text-gray-600 text-lg mb-8 max-w-lg animate-slide-up" style={{animationDelay: '0.2s'}}>
               Sou Freelancer Como Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 13 Anos De Experiência.
@@ -30,7 +30,7 @@ const Hero = () => {
                 Peça Orçamento Agora
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
-              
+
             </div>
             <div className="mt-12 flex items-center gap-6 animate-slide-up" style={{animationDelay: '0.6s'}}>
               <div className="flex items-center gap-2">
@@ -48,14 +48,14 @@ const Hero = () => {
                     <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z"></path>
                   </svg>
                 </a>
-                
+
               </div>
             </div>
           </div>
           <div className="order-1 lg:order-2 flex items-center justify-center">
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-tr from-portfolio-indigo to-portfolio-violet animate-float"></div>
-              <img 
+              <img
                 src={minhaFotoPrincipal} // <-- AGORA USANDO A VARIÁVEL IMPORTADA
                 alt="Professional headshot"
                 className="absolute top-5 left-5 w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-white shadow-xl animate-float"

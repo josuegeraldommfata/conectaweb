@@ -5,7 +5,7 @@ import { Download } from "lucide-react";
 
 // Adicione esta linha para importar sua foto de perfil
 // AJUSTE O CAMINHO se 1741032172529.jpg NÃO estiver em src/imgportfolio/
-import minhaFotoDePerfil from '../1741032172529.jpg'; 
+import minhaFotoDePerfil from '../hero-bg.jpg';
 
 const About = () => {
   return (
@@ -21,9 +21,9 @@ const About = () => {
           <div>
             <div className="relative">
               <div className="w-full max-w-[800px] h-[650px] rounded-lg overflow-hidden shadow-xl mb-12">
-                <img 
+                <img
                   src={minhaFotoDePerfil} // <-- ALtere AQUI para usar a variável importada
-                  alt="Working on design" 
+                  alt="Working on design"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -66,7 +66,7 @@ const About = () => {
               </div>
             </div>
 
-            
+
           </div>
         </div>
 
@@ -84,7 +84,7 @@ const About = () => {
               period: '2025 Atual',
               description: 'desenvolvendo Projetos, Pra Diversos Clientes Que Tem Demanda Na Plataforma De Freelancer.',
             },
-            
+
              {
               title: 'NexGen Systems',
               period: '2016 - 2018',
