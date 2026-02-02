@@ -5,7 +5,7 @@ import { Download } from "lucide-react";
 
 // Adicione esta linha para importar sua foto de perfil
 // AJUSTE O CAMINHO se 1741032172529.jpg NÃO estiver em src/imgportfolio/
-import minhaFotoDePerfil from '../profile-img.jpg';
+import minhaFotoDePerfil from '../imgportfolio/hero-bg.jpg';
 
 const About = () => {
   return (
