@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 // *** IMPORTAÇÃO DA SUA FOTO DE PERFIL ***
 // Como a foto está diretamente em `src/` e este componente está em `src/components/`,
 // o caminho correto é `../1741032172529.jpg` (subir um nível para acessar `src/`).
-import minhaFotoPrincipal from '../img/hero-bg.jpg';
+import minhaFotoPrincipal from '../assets/img/hero-bg.jpg';
 
 const Hero = () => {
   return (
