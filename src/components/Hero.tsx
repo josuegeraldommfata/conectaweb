@@ -14,7 +14,7 @@ const Hero = () => {
               Engenheiro<span className="text-gradient">  De Software </span> <span className="text-gradient"> Sênior</span>
             </h1>
             <p className="text-gray-600 text-lg mb-8 max-w-lg animate-slide-up" style={{animationDelay: '0.2s'}}>
-              Sou Freelancer Como Engenheiro de Software Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 14 Anos De Experiência.
+              Especialista no desenvolvimento de ecossistemas Web e Mobile de alta complexidade. Unindo o rigor técnico da engenharia com a estética do UI Design, entrego soluções focadas em performance extrema, escalabilidade e SEO estratégico. Transformo ideias em produtos digitais de impacto há mais de 14 anos.
             </p>
             <div className="flex flex-wrap gap-4 animate-slide-up" style={{animationDelay: '0.4s'}}>
               <a
