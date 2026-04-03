@@ -2,9 +2,6 @@ import React from 'react';
 import Timeline from './Timeline';
 import { Button } from './ui/button';
 import { Download } from "lucide-react";
-
-// Adicione esta linha para importar sua foto de perfil
-// AJUSTE O CAMINHO se 1741032172529.jpg NÃO estiver em src/imgportfolio/
 import minhaFotoDePerfil from '../assets/img/hero-bg.jpg';
 
 const About = () => {
@@ -41,10 +38,18 @@ const About = () => {
                 Engenheiro de Software Full Stack Sênior Web & Mobile.
             </h3>
             <p className="text-gray-600 mb-6">
-              Sou freelancer como Full Stack developer Sênior e Mobile. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO,Sistemas de Mvp,Pdv,Erp,E-commerce,Landing Pages E Muito Mais.
+             Com mais de 14 anos na vanguarda do desenvolvimento de software, minha atuação é focada na engenharia de sistemas de alta complexidade e impacto comercial. Sou especialista em transformar requisitos de negócio em ecossistemas digitais escaláveis, unindo o rigor da arquitetura backend com a sofisticação do UI Design moderno.
+          Minha expertise abrange o ciclo completo de desenvolvimento para diversos modelos de negócio, incluindo:
+         Sistemas Críticos: Desenvolvimento de ERPs robustos, PDVs de alta performance e plataformas de gestão integrada.
+
+Produtos e Escala: Criação de MVPs acelerados para validação de mercado e arquiteturas MVC sólidas para manutenção a longo prazo.
+
+Soluções de Mercado: Implementação de plataformas White Label altamente customizáveis e SaaS escaláveis.
+
+Performance Digital: E-commerces de alta conversão, Landing Pages otimizadas para tráfego pago e aplicações Mobile nativas/híbridas.
             </p>
             <p className="text-gray-600 mb-6">
-              Minha abordagem combina criatividade com conhecimento técnico, garantindo que cada projeto não apenas tenha uma aparência bonita, mas também proporcione uma experiência de usuário intuitiva e envolvente. Acredito que um bom design deve ser esteticamente agradável e funcional.
+             Minha abordagem é orientada a resultados: entrego código limpo, animações fluidas que retêm o usuário e um foco absoluto em SEO estratégico e performance extrema. Não entrego apenas software; entrego ferramentas de crescimento para empresas que não aceitam menos que a excelência técnica.
             </p>
 
             <div className="grid grid-cols-2 gap-6 mb-8">
