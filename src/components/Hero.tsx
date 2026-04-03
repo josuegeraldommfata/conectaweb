@@ -1,10 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-
-// *** IMPORTAÇÃO DA SUA FOTO DE PERFIL ***
-// Como a foto está diretamente em `src/` e este componente está em `src/components/`,
-// o caminho correto é `../1741032172529.jpg` (subir um nível para acessar `src/`).
 import minhaFotoPrincipal from '../assets/img/hero-bg.jpg';
 
 const Hero = () => {
@@ -15,7 +11,7 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <p className="text-portfolio-violet font-medium mb-4 animate-fade-in">Olá, Eu Sou ...</p>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4 text-portfolio-blue animate-slide-up">
-              Engenheiro De Software Sênior <span className="text-gradient">Full Stack Web & </span>Mobile<span className="text-gradient"> </span>
+              Engenheiro<span className="text-gradient">  De Software </span> <span className="text-gradient"> Sênior</span>
             </h1>
             <p className="text-gray-600 text-lg mb-8 max-w-lg animate-slide-up" style={{animationDelay: '0.2s'}}>
               Sou Freelancer Como Engenheiro de Software Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 14 Anos De Experiência.
