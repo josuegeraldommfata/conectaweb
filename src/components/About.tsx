@@ -14,7 +14,7 @@ const About = () => {
           <div className="w-20 h-1 bg-portfolio-indigo mx-auto"></div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-4 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="relative">
               <div className="w-full max-w-[800px] h-[650px] rounded-lg overflow-hidden shadow-xl mb-12">
@@ -37,21 +37,31 @@ const About = () => {
             <h3 className="text-2xl font-serif font-bold text-portfolio-blue mb-4">
                 Engenheiro de Software Full Stack Sênior Web & Mobile.
             </h3>
-            <p className="text-gray-600 mb-6">
-             Com mais de 14 anos na vanguarda do desenvolvimento de software, minha atuação é focada na engenharia de sistemas de alta complexidade e impacto comercial. Sou especialista em transformar requisitos de negócio em ecossistemas digitais escaláveis, unindo o rigor da arquitetura backend com a sofisticação do UI Design moderno.
-          Minha expertise abrange o ciclo completo de desenvolvimento para diversos modelos de negócio, incluindo:
-         Sistemas Críticos: Desenvolvimento de ERPs robustos, PDVs de alta performance e plataformas de gestão integrada.
+            <p className="text-gray-600 mb-8">
+  Com mais de 14 anos na vanguarda do desenvolvimento de software, minha atuação é centrada na engenharia de sistemas de alta complexidade, orientados a performance, escalabilidade e impacto direto no negócio. Sou especialista em transformar requisitos estratégicos em ecossistemas digitais robustos, unindo arquitetura backend de alta confiabilidade com interfaces modernas orientadas à experiência do usuário.
 
-Produtos e Escala: Criação de MVPs acelerados para validação de mercado e arquiteturas MVC sólidas para manutenção a longo prazo.
+  Minha expertise abrange o ciclo completo de desenvolvimento para diversos modelos de negócio, incluindo:
+<br></br>
 
-Soluções de Mercado: Implementação de plataformas White Label altamente customizáveis e SaaS escaláveis.
 
-Performance Digital: E-commerces de alta conversão, Landing Pages otimizadas para tráfego pago e aplicações Mobile nativas/híbridas.
-            </p>
-            <p className="text-gray-600 mb-6">
-             Minha abordagem é orientada a resultados: entrego código limpo, animações fluidas que retêm o usuário e um foco absoluto em SEO estratégico e performance extrema. Não entrego apenas software; entrego ferramentas de crescimento para empresas que não aceitam menos que a excelência técnica.
-            </p>
+  <span className="font-bold text-blue-600">Sistemas Críticos:</span> Desenvolvimento de <span className="font-bold text-blue-600">ERPs</span> com alta concorrência e integridade transacional, <span className="font-bold text-blue-600">PDVs</span> de baixa latência e plataformas de gestão com alta disponibilidade e tolerância a falhas.<br></br>
 
+
+
+  <span className="font-bold text-blue-600">Produtos e Escala:</span> Criação de <span className="font-bold text-blue-600">MVPs</span> validados em produção com foco em time-to-market e tração, além de arquiteturas <span className="font-bold text-blue-600">MVC</span> e padrões escaláveis preparados para crescimento contínuo.<br></br>
+
+
+
+  <span className="font-bold text-blue-600">Soluções de Mercado:</span> Implementação de plataformas <span className="font-bold text-blue-600">White Label</span> altamente customizáveis e <span className="font-bold text-blue-600">SaaS</span> multi-tenant com foco em escalabilidade horizontal e recorrência.<br></br>
+
+
+
+  <span className="font-bold text-blue-600">Performance Digital:</span> Desenvolvimento de <span className="font-bold text-blue-600">E-commerces</span> otimizados para conversão e performance sob carga, <span className="font-bold text-blue-600">Landing Pages</span> orientadas a ROI em tráfego pago e aplicações <span className="font-bold text-blue-600">Mobile</span> nativas e híbridas com alta responsividade.<br></br>
+</p>
+
+<p className="text-gray-600 mb-8">
+  Minha abordagem é orientada a resultados mensuráveis: entrego código limpo, arquiteturas bem definidas e experiências com alta retenção. Atuo com foco em <span className="font-bold text-blue-600">SEO estratégico</span>, <span className="font-bold text-blue-600">performance extrema</span> e otimização contínua de métricas de negócio. Mais do que desenvolver software, construo soluções que impulsionam crescimento, aumentam eficiência operacional e sustentam escala para empresas que exigem excelência técnica.
+</p>
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div>
                 <h4 className="font-bold text-portfolio-blue mb-2">Nome:</h4>
@@ -80,7 +90,7 @@ Performance Digital: E-commerces de alta conversão, Landing Pages otimizadas pa
         </div>
         <Timeline
           courses={[
-            { title: 'Designer Grafico', period: '2012 - 2014', description: '' },
+            { title: 'DESiGNER GRÁFiCO', period: '2012 - 2014', description: '' },
             { title: 'ANÁLISE DESENVOLVIMENTO DE SISTEMAS', period: '2014 - 2017', description: '' },
             { title: 'ENGENHARIA DE SOFTWARE', period: '2018 - 2023', description: '' },
           ]}
