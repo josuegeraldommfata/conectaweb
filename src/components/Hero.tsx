@@ -63,7 +63,7 @@ const Hero = () => {
               />
               <div className="absolute -bottom-4 -right-4 bg-white p-4 rounded-full shadow-lg animate-bounce">
                 <div className="bg-portfolio-indigo text-white h-14 w-14 flex items-center justify-center rounded-full">
-                  <span className="font-bold">13+</span>
+                  <span className="font-bold">14+</span>
                 </div>
               </div>
             </div>
