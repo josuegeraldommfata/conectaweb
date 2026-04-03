@@ -5,7 +5,7 @@ import logo from '../apple-touch-icon.png';
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  
+
   const navItems = [
     { name: 'Home', href: '#home' },
     { name: 'Sobre', href: '#about' },
@@ -35,9 +35,9 @@ const Navbar = () => {
         <a href="#home" className="flex items-center">
           <img src={logo} alt="Logo" className="h-8 w-auto logo" />
           <a href="#home" className="text-2xl font-serif font-bold text-portfolio-blue">
-          Conecta<span className="text-portfolio-accent"> Web</span></a>
+          Info<span className="text-portfolio-accent"> Tech</span></a>
         </a>
-        
+
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
           {navItems.map((item) => (
@@ -49,11 +49,11 @@ const Navbar = () => {
               {item.name}
             </a>
           ))}
-          
+
         </div>
-        
+
         {/* Mobile Menu Button */}
-        <button 
+        <button
           className="md:hidden text-gray-700"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
@@ -64,7 +64,7 @@ const Navbar = () => {
           )}
         </button>
       </div>
-      
+
       {/* Mobile Menu Dropdown */}
       {mobileMenuOpen && (
         <div className="md:hidden bg-white shadow-lg absolute w-full py-4 px-6 animate-fade-in">

@@ -3,14 +3,14 @@ import React from 'react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
+
   return (
     <footer className="bg-white py-12">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
             <a href="#home" className="text-2xl font-serif font-bold text-portfolio-blue mb-4 inline-block">
-             Conecta <span className="text-portfolio-accent">Web</span>
+             Info <span className="text-portfolio-accent">Tech</span>
             </a>
             <p className="text-gray-600 mb-4">
               A Sua Agencia Digital!
@@ -26,11 +26,11 @@ const Footer = () => {
                   <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452z"></path>
                 </svg>
               </a>
-              
-              
+
+
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-bold text-portfolio-blue mb-4">Links</h3>
             <ul className="space-y-3">
@@ -51,7 +51,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-bold text-portfolio-blue mb-4">Services</h3>
             <ul className="space-y-3">
@@ -72,7 +72,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-bold text-portfolio-blue mb-4">Contato</h3>
             <ul className="space-y-3">
@@ -98,7 +98,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         <div className="border-t border-gray-200 mt-12 pt-8 text-center">
           <p className="text-gray-600">
             © {currentYear} Josue Geraldo Gomes Todos Direitos reservado.

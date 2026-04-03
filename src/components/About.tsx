@@ -38,7 +38,7 @@ const About = () => {
 
           <div>
             <h3 className="text-2xl font-serif font-bold text-portfolio-blue mb-4">
-                Desenvolvedor Full Stack Sênior & Mobile.
+                Engenheiro de Software Full Stack Sênior Web & Mobile.
             </h3>
             <p className="text-gray-600 mb-6">
               Sou freelancer como Full Stack developer Sênior e Mobile. Desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO,Sistemas de Mvp,Pdv,Erp,E-commerce,Landing Pages E Muito Mais.
@@ -75,8 +75,9 @@ const About = () => {
         </div>
         <Timeline
           courses={[
+            { title: 'Designer Grafico', period: '2012 - 2014', description: '' },
             { title: 'ANÁLISE DESENVOLVIMENTO DE SISTEMAS', period: '2014 - 2017', description: '' },
-            { title: 'ENGENHARIA DE SOFTWARE', period: '2025 (Cursando)', description: '' },
+            { title: 'ENGENHARIA DE SOFTWARE', period: '2018 - 2023', description: '' },
           ]}
           experiences={[
             {

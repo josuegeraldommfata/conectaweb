@@ -14,7 +14,7 @@ interface TimelineProps {
 const Timeline: React.FC<TimelineProps> = ({ courses, experiences }) => {
   return (
     <section className="mt-12">
-      
+
 
       <div className="mb-8">
         <h3 className="text-xl font-semibold mb-4">Sumario</h3>
@@ -28,7 +28,7 @@ const Timeline: React.FC<TimelineProps> = ({ courses, experiences }) => {
           <div>
             <h4 className="font-bold">UNICESUMAR</h4>
             <p className="italic text-gray-600">
-              Estou cursando agora Engenharia De Software, vivo procurando pra especializar e aprofundar mais pq amo Programação.
+               Finalizei Engenharia De Software, vivo procurando pra especializar e aprofundar mais pq amo Programação.
             </p>
           </div>
         </div>

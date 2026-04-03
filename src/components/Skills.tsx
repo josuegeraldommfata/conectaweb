@@ -8,7 +8,7 @@ const skillsData = [
   { name: 'Postgresql/Node js/Mongo Db', level: 85 },
   { name: 'React/React Native/Next Js/Flutter/kotlin', level: 80 },
   { name: 'Python/C#/Php/ajax/Javascript/bootstrap', level: 90 },
-  { name: 'GraphQL', level: 85 },
+  { name: 'GraphQL/N8n', level: 85 },
   { name: 'Design Resposivo', level: 100 },
 ];
 
@@ -58,11 +58,11 @@ const Skills = () => {
         <div className="max-w-3xl mx-auto text-center mb-16">
           <p className="text-portfolio-violet font-medium mb-2">Minhas Skills</p>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-portfolio-blue mb-4">
-            
+
           </h2>
           <div className="w-20 h-1 bg-portfolio-indigo mx-auto"></div>
         </div>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           {/* Skills Bars */}
           <div>
@@ -74,9 +74,9 @@ const Skills = () => {
                     <span className="text-portfolio-blue font-medium">{skill.name}</span>
                     <span className="text-portfolio-violet font-medium">{skill.level}%</span>
                   </div>
-                  <Progress 
-                    value={skill.level} 
-                    className="h-2 bg-gray-200" 
+                  <Progress
+                    value={skill.level}
+                    className="h-2 bg-gray-200"
                     style={{
                       "--progress-background": "linear-gradient(to right, #4F46E5, #7C3AED)"
                     } as React.CSSProperties}
@@ -85,7 +85,7 @@ const Skills = () => {
               ))}
             </div>
           </div>
-          
+
           {/* Services */}
           <div>
             <h3 className="text-2xl font-serif font-bold text-portfolio-blue mb-8">Descrições de Serviços</h3>
