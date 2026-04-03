@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="order-2 lg:order-1">
             <p className="text-portfolio-violet font-medium mb-4 animate-fade-in">Olá, Eu Sou ...</p>
             <h1 className="text-4xl md:text-6xl font-serif font-bold mb-4 text-portfolio-blue animate-slide-up">
-              Engenheiro De Software <span className="text-gradient">Full Stack Web & </span>&<span className="text-gradient">Mobile  Sênior.</span>
+              Engenheiro De Software Sênior <span className="text-gradient">Full Stack Web & </span>Mobile<span className="text-gradient"> </span>
             </h1>
             <p className="text-gray-600 text-lg mb-8 max-w-lg animate-slide-up" style={{animationDelay: '0.2s'}}>
               Sou Freelancer Como Engenheiro de Software Full Stack developer e UI Designer. Desenvolvo Interfaces Modernas E De Alta Qualidade, Concentrado Em Performance, Animações Criativas E Soluções, Responsividade E SEO,Com Mais De 14 Anos De Experiência.
